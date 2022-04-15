@@ -16,8 +16,6 @@ Rails.application.routes.draw do
 
   post("/verify_credentials", { :controller => "users", :action => "authenticate"})
 
-  #post("/get_preferences", { :controller => "users", :action => "learn"})
-
   get("/1_male_under_casual", { :controller => "clothing", :action => "explore"})
 
   get("/2_male_under_casual", { :controller => "clothing", :action => "explore"})

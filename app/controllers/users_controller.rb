@@ -34,10 +34,6 @@ class UsersController < ApplicationController
    
     end
 
-   # if user.price == 1 
-      #redirect_to("/1_male_under_casual")
-   # end
-
 
   end
 
@@ -123,10 +119,5 @@ class UsersController < ApplicationController
 
 
 
-#input_user = params.fetch("browser_username")
-
-#a_new_user = User.new 
-#a_new_user.username = input_user
-#a_new_user.save
 
 end
